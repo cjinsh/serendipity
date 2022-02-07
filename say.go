@@ -2,6 +2,6 @@ package serendipity
 
 import "fmt"
 
-func Say() {
-	fmt.Print("hello, world!")
+func Say() string {
+	return fmt.Sprint("hello, world!")
 }
